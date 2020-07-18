@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <front msg="About @hcunews"/>
+    <front @change-locale="changeLocale" />
   </div>
 </template>
 
@@ -10,18 +10,15 @@ import front from './components/front.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    front
+  },
+  metaInfo() {
+  return { title: this.$t("message.welcome") }
+},
+methods: {
+    changeLocale() {
+      this.$i18n.locale = (this.$i18n.locale === 'ja') ? 'en' : 'ja';
+    }
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
