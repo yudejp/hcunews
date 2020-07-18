@@ -22,3 +22,8 @@ methods: {
   }
 }
 </script>
+
+<style>
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP");
+body { font-family: "Noto Sans JP"; }
+</style>
