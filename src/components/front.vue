@@ -23,6 +23,8 @@
      <ul>
             <li><a href="https://www.hiroshima-cu.ac.jp/news/">お知らせ | 広島市立大学</a></li>
             <li><a href="https://www.hiroshima-cu.ac.jp/news_student/">お知らせ（在学生・保護者の方へ） | 広島市立大学</a></li>
+            <li><a href="https://www.hiroshima-cu.ac.jp/student/">在学生・保護者の方へ｜広島市立大学</a></li>
+            <li><a href="https://www.hiroshima-cu.ac.jp/private/">学内限定情報｜広島市立大学</a></li>
       </ul>
     <h2>{{$t("message.misc")}}</h2>
       <p v-html="$t('message.desc_misc_1')"></p>
@@ -32,7 +34,7 @@
       </ul>
     <h2>Special Thanks</h2>
     <ul>
-            <li><a href="https://ifttt.com/">IFTTT: Every thing works better together</a></li>
+            <li><a href="https://japan.flow.microsoft.com/ja-jp/">Microsoft Power Automate | Microsoft Power Platform</a></li>
             <li><a href="https://vuejs.org/">Vue.js - The Progressive JavaScript Framework.</a></li>
     </ul>
     </div>
