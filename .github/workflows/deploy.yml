@@ -6,12 +6,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          version: 12
       - uses: borales/actions-yarn@v2.0.0
         with:
-          cmd: install # will run `yarn install` command
+          cmd: install --ignore-optional --non-interactive
       - uses: borales/actions-yarn@v2.0.0
         with:
-          cmd: build # will run `yarn build` command
+          cmd: build
       - uses: borales/actions-yarn@v2.0.0
         with:
-          cmd: deploy # will run `yarn deploy` command
+          cmd: deploy
