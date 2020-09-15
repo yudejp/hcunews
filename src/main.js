@@ -1,7 +1,7 @@
-import Vue from 'vue'
-import VueI18n from 'vue-i18n'
-import VueMeta from "vue-meta"
-import App from './App.vue'
+import {Vue} from 'vue'
+import {VueI18n} from 'vue-i18n'
+import {VueMeta} from "vue-meta"
+import {App} from './App.vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.config.productionTip = false
