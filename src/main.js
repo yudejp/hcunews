@@ -20,7 +20,7 @@ const messages = {
       desc_maintainer_1: 'This account is maintained by yude, the student of HCU, belongs to 1st grade of Department of Information Science.',
       desc_maintainer_2: 'If there\'s problem with tweets or existence of this bot, please contact by the means written below.',
       how: 'How does this bot work?',
-      desc_how_1: 'Microsoft Power Platform obtains the RSS feed of HCU web, and when new article is available it posts notification to Twitter.',
+      desc_how_1: 'Microsoft Power Automate obtains the RSS feed of HCU web, and when new article is available it posts notification to Twitter.',
       desc_how_2: 'This bot observes to specific urls listed below.',
       misc: 'Misc',
       desc_misc_1: 'If you get multiple notifications of the same article, it\'s just a specification.',
