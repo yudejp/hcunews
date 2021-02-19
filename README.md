@@ -1,4 +1,4 @@
-# [yudemoe](https://github.com/yudemoe) / hcunews
+# hcunews
 広島市立大学 HP更新通知 説明ページ  
 Vue.js の練習も兼ねています。
 
